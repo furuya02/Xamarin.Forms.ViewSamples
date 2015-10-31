@@ -336,6 +336,26 @@ namespace App1 {
     /*
     ////////////////////////////////////////////////////
     //
+    // Switchのサンプル
+    //
+    ////////////////////////////////////////////////////
+    class MyPage : ContentPage {
+
+        public MyPage() {
+
+            // Switcrを生成する
+            var sw = new Switch {
+                HorizontalOptions = LayoutOptions.Center,//中央に配置する（横方向）
+                VerticalOptions = LayoutOptions.CenterAndExpand // 中央に配置する（縦方向）
+            };
+            // Switchのみをコンテンツとして配置する
+            Content = sw;
+        }
+    }
+    */
+    /*
+    ////////////////////////////////////////////////////
+    //
     // TimePickerのサンプル
     //
     ////////////////////////////////////////////////////
